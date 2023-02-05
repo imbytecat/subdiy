@@ -1,0 +1,256 @@
+### Intranet Resources ###
+
+# Home Intranet
+[[rulesets]]
+group = "🏠 Home"
+ruleset = "[]IP-CIDR,10.0.0.0/23"
+
+# College Intranet
+[[rulesets]]
+group = "🏫 College"
+ruleset = "[]IP-CIDR,10.64.0.0/16"
+[[rulesets]]
+group = "🏫 College"
+ruleset = "[]IP-CIDR,10.81.0.0/16"
+[[rulesets]]
+group = "🏫 College"
+ruleset = "[]IP-CIDR,10.100.0.0/16"
+[[rulesets]]
+group = "🏫 College"
+ruleset = "[]DOMAIN-SUFFIX,cnki.net"
+
+### Special ###
+
+# subconverter
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]DOMAIN,subconverter.imbytecat.com"
+
+# WeChat
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml"
+type = "clash-classic"
+
+# Common Game Delivery CDN
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.yaml"
+type = "clash-classic"
+
+# Steam (CN) Game Delivery CDN
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.yaml"
+type = "clash-classic"
+
+# Xbox Game Delivery CDN
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Xbox/download-cdn.yaml"
+type = "clash-classic"
+
+# Xbox (CN) Game Delivery CDN
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Xbox/download-cdn-cn.yaml"
+type = "clash-classic"
+
+# Telegram
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Telegram/Telegram.yaml"
+type = "clash-classic"
+
+# Linkedin
+# Redirect to China version for visitors from China
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "[]DOMAIN-SUFFIX,linkedin.com"
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "[]DOMAIN-SUFFIX,licdn.com"
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "[]DOMAIN-SUFFIX,linkedin.cn"
+
+# 小众软件
+# No comment area for visitors from China
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "[]DOMAIN-SUFFIX,appinn.com"
+
+### Speedtest Services ###
+
+[[rulesets]]
+group = "🚀 Speedtest"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml"
+type = "clash-classic"
+
+### Finance ###
+
+# PayPal
+[[rulesets]]
+group = "💰 PayPal"
+ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml"
+type = "clash-classic"
+
+### Cryptocurrency ###
+
+# Kraken
+[[rulesets]]
+group = "📈 Crypto"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Kraken/kraken.yaml"
+type = "clash-classic"
+
+# Binance
+[[rulesets]]
+group = "📈 Crypto"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Binance/binance.yaml"
+type = "clash-classic"
+
+# Dex-Trade
+[[rulesets]]
+group = "📈 Crypto"
+ruleset = "[]DOMAIN-SUFFIX,dex-trade.com"
+
+# Others
+[[rulesets]]
+group = "📈 Crypto"
+ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Cryptocurrency.yaml"
+type = "clash-classic"
+
+### Streaming Services ###
+
+# International Streaming (Non-China)
+[[rulesets]]
+group = "🎞️ Streaming"
+ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml"
+type = "clash-classic"
+
+### Gaming Services ###
+
+# Steam
+[[rulesets]]
+group = "🎮 Gaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam/Steam.yaml"
+type = "clash-classic"
+
+# Nintendo
+[[rulesets]]
+group = "🎮 Gaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.yaml"
+type = "clash-classic"
+
+# EA
+[[rulesets]]
+group = "🎮 Gaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.yaml"
+type = "clash-classic"
+
+# Origin
+[[rulesets]]
+group = "🎮 Gaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Origin/Origin.yaml"
+type = "clash-classic"
+
+# Xbox
+[[rulesets]]
+group = "🎮 Gaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox/Xbox.yaml"
+type = "clash-classic"
+
+# Epic Games
+[[rulesets]]
+group = "🎮 Gaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.yaml"
+type = "clash-classic"
+
+### NA Services ###
+
+# Ultra Mobile
+# Recommended to use United States IP
+[[rulesets]]
+group = "NA Services"
+ruleset = "[]DOMAIN-SUFFIX,ultramobile.com"
+
+### EU Services ###
+
+# N26
+[[rulesets]]
+group = "EU Services"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/N26/n26.yaml"
+type = "clash-classic"
+
+# Curve
+[[rulesets]]
+group = "EU Services"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Curve/curve.yaml"
+type = "clash-classic"
+
+# Wise
+[[rulesets]]
+group = "EU Services"
+ruleset = "[]DOMAIN-SUFFIX,wise.com"
+
+# Skrill
+[[rulesets]]
+group = "EU Services"
+ruleset = "[]DOMAIN-SUFFIX,skrill.com"
+
+# Stripe
+[[rulesets]]
+group = "EU Services"
+ruleset = "[]DOMAIN-SUFFIX,stripe.com"
+
+# OpenAI
+[[rulesets]]
+group = "EU Services"
+ruleset = "[]DOMAIN-SUFFIX,openai.com"
+
+### AS Services ###
+
+# Duolingo
+# Recommended to use Singapore IP for users in China
+[[rulesets]]
+group = "AS Services"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Duolingo/duolingo.yaml"
+type = "clash-classic"
+
+### DIRECT ###
+
+# China
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml"
+type = "clash-classic"
+
+# GeoIP: CN
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]GEOIP,CN"
+
+### Others ###
+
+# Google
+[[rulesets]]
+group = "🔍 Google"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
+type = "clash-classic"
+
+# Global
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml"
+type = "clash-classic"
+
+# LAN IP CIDR
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
+type = "clash-ipcidr"
+
+# Final
+[[rulesets]]
+group = "Default Proxy"
+ruleset = "[]MATCH"

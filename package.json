@@ -1,0 +1,30 @@
+{
+  "name": "subdiy",
+  "private": true,
+  "version": "0.6.9",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run prepare && vite",
+    "build": "npm run prepare && vite build",
+    "preview": "vite preview",
+    "prepare": "node ./prepare.cjs"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.14",
+    "copy-to-clipboard": "^3.3.3",
+    "dotenv": "^16.0.3",
+    "js-confetti": "^0.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sweetalert2": "^11.7.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.1.0"
+  }
+}

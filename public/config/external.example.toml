@@ -1,0 +1,29 @@
+version = 1
+
+[custom]
+enable_rule_generator = true
+overwrite_original_rules = true
+
+# Options for custom base configuration file
+clash_rule_base = "SUBDIY_URL/config/templates/clash.yaml.tpl"
+
+# Options for filtering nodes
+exclude_remarks = [
+  "(s801)", # Just My Socks: Freedom s801
+]
+
+# Options for adding emojis
+add_emoji = true
+remove_old_emoji = true
+
+[[rename_node]]
+import = "SUBDIY_URL/config/snippets/rename.toml"
+
+[[emoji]]
+import = "SUBDIY_URL/config/snippets/emojis.toml"
+
+[[custom_groups]]
+import = "SUBDIY_URL/config/snippets/groups.toml"
+
+[[rulesets]]
+import = "SUBDIY_URL/config/snippets/rules.toml"

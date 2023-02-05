@@ -1,0 +1,131 @@
+### Custom Emojis ###
+
+[[emoji]]
+match = "Lab"
+emoji = "🏫"
+
+[[emoji]]
+match = "Home"
+emoji = "🏠"
+
+### Countries & Regions ###
+
+[[emoji]]
+match = "Argentina|AR|阿根廷"
+emoji = "🇦🇷"
+
+[[emoji]]
+match = "Australia|AU|澳大利亚"
+emoji = "🇦🇺"
+
+[[emoji]]
+match = "Austria|AT|奥地利"
+emoji = "🇦🇹"
+
+[[emoji]]
+match = "Brazil|BR|巴西"
+emoji = "🇧🇷"
+
+[[emoji]]
+match = "Bulgaria|BG|保加利亚"
+emoji = "🇧🇬"
+
+[[emoji]]
+match = "Canada|CA|加拿大"
+emoji = "🇨🇦"
+
+[[emoji]]
+match = "Chile|CL|智利"
+emoji = "🇨🇱"
+
+[[emoji]]
+match = "China|CN|中国"
+emoji = "🇨🇳"
+
+[[emoji]]
+match = "France|FR|法国"
+emoji = "🇫🇷"
+
+[[emoji]]
+match = "Germany|DE|德国"
+emoji = "🇩🇪"
+
+[[emoji]]
+match = "Hong Kong|HK|香港"
+emoji = "🇭🇰"
+
+[[emoji]]
+match = "Hungary|HU|匈牙利"
+emoji = "🇭🇺"
+
+[[emoji]]
+match = "Ireland|IE|爱尔兰"
+emoji = "🇮🇪"
+
+[[emoji]]
+match = "India|IN|印度"
+emoji = "🇮🇳"
+
+[[emoji]]
+match = "Indonesia|ID|印度尼西亚"
+emoji = "🇮🇩"
+
+[[emoji]]
+match = "Japan|JP|日本"
+emoji = "🇯🇵"
+
+[[emoji]]
+match = "Korea|KR|韩国"
+emoji = "🇰🇷"
+
+[[emoji]]
+match = "Malaysia|MY|马来西亚"
+emoji = "🇲🇾"
+
+[[emoji]]
+match = "Netherlands|NL|荷兰"
+emoji = "🇳🇱"
+
+[[emoji]]
+match = "Pakistan|PK|巴基斯坦"
+emoji = "🇵🇰"
+
+[[emoji]]
+match = "Philippines|PH|菲律宾"
+emoji = "🇵🇭"
+
+[[emoji]]
+match = "Russia|RU|俄罗斯"
+emoji = "🇷🇺"
+
+[[emoji]]
+match = "Singapore|SG|新加坡"
+emoji = "🇸🇬"
+
+[[emoji]]
+match = "Sweden|SE|瑞典"
+emoji = "🇸🇪"
+
+[[emoji]]
+match = "Switzerland|CH|瑞士"
+emoji = "🇨🇭"
+
+[[emoji]]
+match = "Taiwan|TW|台湾"
+emoji = "🇹🇼"
+
+[[emoji]]
+match = "Thailand|TH|泰国"
+emoji = "🇹🇭"
+
+[[emoji]]
+match = "Turkey|TR|土耳其"
+emoji = "🇹🇷"
+
+[[emoji]]
+match = "United Kingdom|UK|英国"
+emoji = "🇬🇧"
+
+[[emoji]]
+match = "United States|US|美国"
+emoji = "🇺🇸"

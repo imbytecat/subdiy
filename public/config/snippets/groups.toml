@@ -1,0 +1,137 @@
+# 延迟最低
+[[custom_groups]]
+name = "URL Test"
+type = "url-test"
+rule = ["^((?!China|EX|ProxyCheap).)*$"]
+url = "http://www.gstatic.com/generate_204"
+interval = 300                              # 300 seconds
+timeout = 5                                 # 5 seconds
+tolerance = 50                              # 50 milliseconds
+
+# 代理链前置节点
+[[custom_groups]]
+name = "Relay Frontend"
+type = "select"
+rule = ["[]URL Test", "[]DIRECT", "^((?!ProxyCheap).)*$"]
+
+# 默认落地节点
+[[custom_groups]]
+name = "Default Backend"
+type = "select"
+rule = ["[]DIRECT", ".*"]
+
+# 默认代理链
+[[custom_groups]]
+name = "Default Relay"
+type = "relay"
+rule = ["[]Relay Frontend", "[]Default Backend"]
+
+# 亚洲落地节点
+[[custom_groups]]
+name = "AS Backend"
+type = "select"
+rule = ["[]Default Backend", "(Singapore|Hong Kong)"]
+
+# 亚洲代理链
+[[custom_groups]]
+name = "AS Relay"
+type = "relay"
+rule = ["[]Relay Frontend", "[]AS Backend"]
+
+# 欧洲落地节点
+[[custom_groups]]
+name = "EU Backend"
+type = "select"
+rule = ["[]Default Backend", "(France|Germany|United Kingdom|Netherlands)"]
+
+# 欧洲代理链
+[[custom_groups]]
+name = "EU Relay"
+type = "relay"
+rule = ["[]Relay Frontend", "[]AS Backend"]
+
+# 北美落地节点
+[[custom_groups]]
+name = "NA Backend"
+type = "select"
+rule = ["[]Default Backend", "(United States|Canada)"]
+
+# 北美代理链
+[[custom_groups]]
+name = "NA Relay"
+type = "relay"
+rule = ["[]Relay Frontend", "[]AS Backend"]
+
+# 默认代理
+[[custom_groups]]
+name = "Default Proxy"
+type = "select"
+rule = [
+    "[]URL Test",
+    "[]AS Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    "[]DIRECT",
+    ".*",
+]
+
+# 流媒体
+[[custom_groups]]
+name = "🎞️ Streaming"
+type = "select"
+rule = ["[]Default Proxy", "[]AS Relay", "[]Default Relay", ".*"]
+
+# 游戏
+[[custom_groups]]
+name = "🎮 Gaming"
+type = "select"
+rule = ["[]Default Proxy", "[]Default Relay", ".*"]
+
+# 速度测试
+[[custom_groups]]
+name = "🚀 Speedtest"
+type = "select"
+rule = ["[]Default Proxy", "[]Default Relay", "[]DIRECT", ".*"]
+
+# 亚洲服务
+[[custom_groups]]
+name = "AS Services"
+type = "select"
+rule = ["[]Default Proxy", "[]AS Relay", "[]DIRECT", ".*"]
+
+# 欧洲服务
+[[custom_groups]]
+name = "EU Services"
+type = "select"
+rule = ["[]Default Proxy", "[]EU Relay", "[]DIRECT", ".*"]
+
+# 北美服务
+[[custom_groups]]
+name = "NA Services"
+type = "select"
+rule = ["[]Default Proxy", "[]NA Relay", "[]DIRECT", ".*"]
+
+[[custom_groups]]
+name = "🔍 Google"
+type = "select"
+rule = ["[]Default Proxy", "[]AS Relay", "[]NA Relay", "[]Default Relay", ".*"]
+
+[[custom_groups]]
+name = "💰 PayPal"
+type = "select"
+rule = ["[]Default Proxy", "[]NA Relay", "[]AS Relay", "[]Default Relay", ".*"]
+
+[[custom_groups]]
+name = "📈 Crypto"
+type = "select"
+rule = ["[]Default Proxy", "[]EU Relay", "[]AS Relay", "[]Default Relay", ".*"]
+
+[[custom_groups]]
+name = "🏠 Home"
+type = "select"
+rule = ["[]DIRECT", "(Home)"]
+
+[[custom_groups]]
+name = "🏫 College"
+type = "select"
+rule = ["[]DIRECT", "(Lab)"]
