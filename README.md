@@ -20,4 +20,5 @@ You can deploy SubDIY with [Cloudflare Pages](https://pages.cloudflare.com/) or 
 - Build output directory: `dist`
 - Set environment variables:
   - `VITE_SUBDIY_URL=https://subdiy.pages.dev`
+  - `VITE_BACKEND_URL=https://api.dler.io`
   - `NODE_VERSION=16`

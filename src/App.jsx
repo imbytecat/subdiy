@@ -35,7 +35,7 @@ function App() {
     const configUrl = form.configUrl;
     const subUrls = form.subUrls;
     const subUrlList = subUrls.split('\n').filter((item) => item && item.trim());
-    let fullUrl = `https://subconverter.imbytecat.com/sub?target=clash&url=${encodeURIComponent(subUrlList.join('|'))}&config=${encodeURIComponent(configUrl)}&sort=true&clash.dns=${form.dnsOption}`;
+    let fullUrl = `${import.meta.env.VITE_BACKEND_URL}/sub?target=clash&url=${encodeURIComponent(subUrlList.join('|'))}&config=${encodeURIComponent(configUrl)}&sort=true&clash.dns=${form.dnsOption}`;
     return fullUrl;
   }
 
