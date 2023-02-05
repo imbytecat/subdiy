@@ -1,10 +1,13 @@
-const fs = require('fs');
-const path = require('path')
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-const dotenv = require("dotenv")
+import dotenv from 'dotenv'
 dotenv.config()
 
-const readFile = path.resolve(__dirname, './public/config/external.example.toml');
+const readFile = path.resolve(__dirname, './public/config/external.example.toml')
 const wrideFile = path.resolve(__dirname, './public/config/external.toml')
 
 fs.readFile(readFile, (err, buffer) => {

@@ -7,7 +7,7 @@
     "dev": "npm run prepare && vite",
     "build": "npm run prepare && vite build",
     "preview": "vite preview",
-    "prepare": "node ./prepare.cjs"
+    "prepare": "node ./prepare.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.14",
