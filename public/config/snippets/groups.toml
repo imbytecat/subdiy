@@ -2,7 +2,7 @@
 [[custom_groups]]
 name = "URL Test"
 type = "url-test"
-rule = ["^((?!China|EX|ProxyCheap).)*$"]
+rule = ["^((?!China|EX|IPLC|ProxyCheap).)*$"]
 url = "http://www.gstatic.com/generate_204"
 interval = 300                              # 300 seconds
 timeout = 5                                 # 5 seconds
