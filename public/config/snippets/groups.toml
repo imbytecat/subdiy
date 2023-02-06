@@ -135,3 +135,15 @@ rule = ["[]DIRECT", "(Home)"]
 name = "🏫 College"
 type = "select"
 rule = ["[]DIRECT", "(Lab)"]
+
+[[custom_groups]]
+name = "Others"
+type = "select"
+rule = [
+    "[]Default Relay",
+    "[]URL Test",
+    "[]AS Relay",
+    "[]NA Relay",
+    "[]DIRECT",
+    ".*",
+]

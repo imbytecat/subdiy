@@ -250,7 +250,7 @@ group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
 type = "clash-ipcidr"
 
-# Final
+# Final (Others)
 [[rulesets]]
-group = "Default Proxy"
+group = "Others"
 ruleset = "[]MATCH"
