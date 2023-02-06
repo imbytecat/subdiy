@@ -140,10 +140,11 @@ rule = ["[]DIRECT", "(Lab)"]
 name = "Others"
 type = "select"
 rule = [
-    "[]Default Relay",
+    "[]Default Proxy",
     "[]URL Test",
     "[]AS Relay",
     "[]NA Relay",
+    "[]Default Relay",
     "[]DIRECT",
     ".*",
 ]
