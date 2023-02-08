@@ -4,9 +4,9 @@ name = "URL Test"
 type = "url-test"
 rule = ["^((?!China|EX|IPLC|ProxyCheap).)*$"]
 url = "http://www.gstatic.com/generate_204"
-interval = 300                              # 300 seconds
-timeout = 5                                 # 5 seconds
-tolerance = 50                              # 50 milliseconds
+interval = 300                                # 300 seconds
+timeout = 5                                   # 5 seconds
+tolerance = 50                                # 50 milliseconds
 
 # 代理链前置节点
 [[custom_groups]]
@@ -30,7 +30,7 @@ rule = ["[]Relay Frontend", "[]Default Backend"]
 [[custom_groups]]
 name = "AS Backend"
 type = "select"
-rule = ["[]Default Backend", "(Singapore|Hong Kong)"]
+rule = ["[]Default Backend", ".*"]
 
 # 亚洲代理链
 [[custom_groups]]
@@ -42,7 +42,7 @@ rule = ["[]Relay Frontend", "[]AS Backend"]
 [[custom_groups]]
 name = "EU Backend"
 type = "select"
-rule = ["[]Default Backend", "(France|Germany|United Kingdom|Netherlands)"]
+rule = ["[]Default Backend", ".*"]
 
 # 欧洲代理链
 [[custom_groups]]
@@ -54,7 +54,7 @@ rule = ["[]Relay Frontend", "[]AS Backend"]
 [[custom_groups]]
 name = "NA Backend"
 type = "select"
-rule = ["[]Default Backend", "(United States|Canada)"]
+rule = ["[]Default Backend", ".*"]
 
 # 北美代理链
 [[custom_groups]]
