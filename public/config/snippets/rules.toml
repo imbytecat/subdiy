@@ -205,7 +205,7 @@ ruleset = "[]DOMAIN-SUFFIX,stripe.com"
 
 # OpenAI
 [[rulesets]]
-group = "EU Services"
+group = "🤖️ OpenAI"
 ruleset = "[]DOMAIN-SUFFIX,openai.com"
 
 ### AS Services ###
