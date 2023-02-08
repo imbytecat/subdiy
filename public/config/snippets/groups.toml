@@ -69,6 +69,7 @@ type = "select"
 rule = [
     "[]URL Test",
     "[]AS Relay",
+    "[]EU Relay",
     "[]NA Relay",
     "[]Default Relay",
     "[]DIRECT",
@@ -79,7 +80,14 @@ rule = [
 [[custom_groups]]
 name = "🎞️ Streaming"
 type = "select"
-rule = ["[]Default Proxy", "[]AS Relay", "[]Default Relay", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    ".*",
+]
 
 # 游戏
 [[custom_groups]]
@@ -97,34 +105,79 @@ rule = ["[]Default Proxy", "[]Default Relay", "[]DIRECT", ".*"]
 [[custom_groups]]
 name = "AS Services"
 type = "select"
-rule = ["[]Default Proxy", "[]AS Relay", "[]DIRECT", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    "[]DIRECT",
+    ".*",
+]
 
 # 欧洲服务
 [[custom_groups]]
 name = "EU Services"
 type = "select"
-rule = ["[]Default Proxy", "[]EU Relay", "[]DIRECT", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    "[]DIRECT",
+    ".*",
+]
 
 # 北美服务
 [[custom_groups]]
 name = "NA Services"
 type = "select"
-rule = ["[]Default Proxy", "[]NA Relay", "[]DIRECT", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    "[]DIRECT",
+    ".*",
+]
 
 [[custom_groups]]
 name = "🔍 Google"
 type = "select"
-rule = ["[]Default Proxy", "[]AS Relay", "[]NA Relay", "[]Default Relay", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    ".*",
+]
 
 [[custom_groups]]
 name = "💰 PayPal"
 type = "select"
-rule = ["[]Default Proxy", "[]NA Relay", "[]AS Relay", "[]Default Relay", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    ".*",
+]
 
 [[custom_groups]]
 name = "📈 Crypto"
 type = "select"
-rule = ["[]Default Proxy", "[]EU Relay", "[]AS Relay", "[]Default Relay", ".*"]
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    ".*",
+]
 
 [[custom_groups]]
 name = "🏠 Home"
@@ -143,6 +196,7 @@ rule = [
     "[]Default Proxy",
     "[]URL Test",
     "[]AS Relay",
+    "[]EU Relay",
     "[]NA Relay",
     "[]Default Relay",
     "[]DIRECT",
