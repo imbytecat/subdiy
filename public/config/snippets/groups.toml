@@ -168,6 +168,18 @@ rule = [
 ]
 
 [[custom_groups]]
+name = "🤖️ OpenAI"
+type = "select"
+rule = [
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    ".*",
+]
+
+[[custom_groups]]
 name = "📈 Crypto"
 type = "select"
 rule = [
