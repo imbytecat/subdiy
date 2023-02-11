@@ -48,7 +48,7 @@ rule = ["[]Default Backend", ".*"]
 [[custom_groups]]
 name = "EU Relay"
 type = "relay"
-rule = ["[]Relay Frontend", "[]AS Backend"]
+rule = ["[]Relay Frontend", "[]EU Backend"]
 
 # 北美落地节点
 [[custom_groups]]
@@ -60,7 +60,7 @@ rule = ["[]Default Backend", ".*"]
 [[custom_groups]]
 name = "NA Relay"
 type = "relay"
-rule = ["[]Relay Frontend", "[]AS Backend"]
+rule = ["[]Relay Frontend", "[]NA Backend"]
 
 # 默认代理
 [[custom_groups]]
