@@ -2,11 +2,11 @@
 [[custom_groups]]
 name = "URL Test"
 type = "url-test"
-rule = ["^((?!China|EX|IPLC|ProxyCheap).)*$"]
+rule = ["^((?!China|EX|ProxyCheap).)*$"]
 url = "http://www.gstatic.com/generate_204"
-interval = 300                                # 300 seconds
-timeout = 5                                   # 5 seconds
-tolerance = 50                                # 50 milliseconds
+interval = 300                              # 300 seconds
+timeout = 5                                 # 5 seconds
+tolerance = 50                              # 50 milliseconds
 
 # 代理链前置节点
 [[custom_groups]]
