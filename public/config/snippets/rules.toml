@@ -1,3 +1,13 @@
+### Blocking ###
+
+# bilibili PCDN
+[[rulesets]]
+group = "REJECT"
+ruleset = "[]DOMAIN-SUFFIX,mcdn.bilivideo.cn"
+[[rulesets]]
+group = "REJECT"
+ruleset = "[]DOMAIN-SUFFIX,szbdyd.com"
+
 ### Intranet Resources ###
 
 # Home Intranet
