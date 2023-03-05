@@ -204,7 +204,7 @@ rule = ["[]DIRECT", "(Lab)"]
 [[custom_groups]]
 name = "🏠 MDY"
 type = "select"
-rule = ["[]DIRECT", "(MDY)"]
+rule = ["[]DIRECT", "[]Default Relay", "(MDY)"]
 
 [[custom_groups]]
 name = "Others"
