@@ -43,7 +43,7 @@ ruleset = "[]DOMAIN,subconverter.imbytecat.com"
 
 # WeChat
 [[rulesets]]
-group = "DIRECT"
+group = "CN Services"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml"
 type = "clash-classic"
 
@@ -109,6 +109,13 @@ type = "clash-classic"
 group = "💰 PayPal"
 ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml"
 type = "clash-classic"
+
+### Technology ###
+
+# OpenAI
+[[rulesets]]
+group = "🤖️ OpenAI"
+ruleset = "[]DOMAIN-SUFFIX,openai.com"
 
 ### Cryptocurrency ###
 
@@ -219,11 +226,6 @@ ruleset = "[]DOMAIN-SUFFIX,skrill.com"
 group = "EU Services"
 ruleset = "[]DOMAIN-SUFFIX,stripe.com"
 
-# OpenAI
-[[rulesets]]
-group = "🤖️ OpenAI"
-ruleset = "[]DOMAIN-SUFFIX,openai.com"
-
 ### NA Services ###
 
 # Ultra Mobile
@@ -242,13 +244,13 @@ ruleset = "[]DOMAIN-SUFFIX,bing.com"
 
 # China
 [[rulesets]]
-group = "DIRECT"
+group = "CN Services"
 ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml"
 type = "clash-classic"
 
 # GeoIP: CN
 [[rulesets]]
-group = "DIRECT"
+group = "CN Services"
 ruleset = "[]GEOIP,CN"
 
 ### Others ###

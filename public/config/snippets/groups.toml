@@ -115,6 +115,20 @@ rule = [
     ".*",
 ]
 
+# 中国大陆服务
+[[custom_groups]]
+name = "CN Services"
+type = "select"
+rule = [
+    "[]DIRECT",
+    "[]Default Proxy",
+    "[]AS Relay",
+    "[]EU Relay",
+    "[]NA Relay",
+    "[]Default Relay",
+    ".*",
+]
+
 # 欧洲服务
 [[custom_groups]]
 name = "EU Services"
