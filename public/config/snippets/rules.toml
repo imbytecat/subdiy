@@ -1,3 +1,15 @@
+### DIRECT ###
+
+# AliDNS DoH
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]DOMAIN,dns.alidns.com"
+
+# DNSPod DoH
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]DOMAIN-SUFFIX,doh.pub"
+
 ### Blocking ###
 
 # bilibili PCDN
