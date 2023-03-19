@@ -8,6 +8,10 @@ emoji = "🏫"
 match = "Home"
 emoji = "🏠"
 
+[[emoji]]
+match = "CYY"
+emoji = "🏠"
+
 ### Countries & Regions ###
 
 [[emoji]]
