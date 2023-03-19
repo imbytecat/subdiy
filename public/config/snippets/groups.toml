@@ -216,6 +216,11 @@ type = "select"
 rule = ["[]DIRECT", "(Lab)"]
 
 [[custom_groups]]
+name = "🏠 CYY"
+type = "select"
+rule = ["[]DIRECT", "(CYY)"]
+
+[[custom_groups]]
 name = "🏠 MDY"
 type = "select"
 rule = ["[]DIRECT", "[]Default Relay", "(MDY)"]
