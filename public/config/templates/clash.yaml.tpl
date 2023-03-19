@@ -44,3 +44,10 @@ dns:
   nameserver:
     - https://cloudflare-dns.com/dns-query
 {% endif %}
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - +.msftncsi.com
+    - +.msftconnecttest.com
+    - msftconnecttest.com
+    - localhost.ptlogin2.qq.com
