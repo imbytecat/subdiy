@@ -44,7 +44,7 @@ ruleset = "[]DOMAIN-SUFFIX,cnki.net"
 # MDY Intranet
 [[rulesets]]
 group = "🏠 CYY"
-ruleset = "[]IP-CIDR,10.5.222.0/24"
+ruleset = "[]IP-CIDR,10.5.0.0/16"
 
 # MDY Intranet
 [[rulesets]]
