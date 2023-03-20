@@ -127,6 +127,11 @@ group = "💰 PayPal"
 ruleset = "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/PayPal.yaml"
 type = "clash-classic"
 
+# Stripe
+[[rulesets]]
+group = "💳 Stripe"
+ruleset = "[]DOMAIN-SUFFIX,stripe.com"
+
 ### Technology ###
 
 # OpenAI
@@ -237,11 +242,6 @@ ruleset = "[]DOMAIN-SUFFIX,wise.com"
 [[rulesets]]
 group = "EU Services"
 ruleset = "[]DOMAIN-SUFFIX,skrill.com"
-
-# Stripe
-[[rulesets]]
-group = "EU Services"
-ruleset = "[]DOMAIN-SUFFIX,stripe.com"
 
 ### NA Services ###
 
