@@ -37,10 +37,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 {% endif %}
-  hosts:
-    "*.cyy.local": 10.5.222.2
   fake-ip-filter:
-    - +.local
     - +.msftncsi.com
     - +.msftconnecttest.com
     - msftconnecttest.com
