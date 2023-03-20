@@ -41,10 +41,13 @@ ruleset = "[]IP-CIDR,10.100.0.0/16"
 group = "🏫 College"
 ruleset = "[]DOMAIN-SUFFIX,cnki.net"
 
-# MDY Intranet
+# CYY Intranet
 [[rulesets]]
 group = "🏠 CYY"
 ruleset = "[]IP-CIDR,10.5.0.0/16"
+[[rulesets]]
+group = "🏠 CYY"
+ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
 
 # MDY Intranet
 [[rulesets]]
