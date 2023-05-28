@@ -21,6 +21,6 @@ replace = "Japan SB@JMS"
 match = '^JMS-\d+\u0040c\d+s5.*?$'
 replace = "Netherlands GIA@JMS"
 
-#[[rename_node]]
-#match = '^JMS-\d+\u0040c\d+s801.*?$'
-#replace = "United States 0.1x@JMS"
+[[rename_node]]
+match = '^JMS-\d+\u0040c\d+s801.*?$'
+replace = "United States 0.1x@JMS"
