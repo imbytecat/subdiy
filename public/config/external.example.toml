@@ -8,9 +8,8 @@ overwrite_original_rules = true
 clash_rule_base = "SUBDIY_URL/config/templates/clash.yaml.tpl"
 
 # Options for filtering nodes
-exclude_remarks = [
-  "(s801)", # Just My Socks: Freedom s801
-]
+# e.g. "(s801)"
+exclude_remarks = []
 
 # Options for adding emojis
 add_emoji = true
