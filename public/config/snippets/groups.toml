@@ -218,14 +218,14 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🏠 Home"
-type = "select"
-rule = ["[]DIRECT", "(Home)"]
-
-[[custom_groups]]
 name = "🏫 College"
 type = "select"
 rule = ["[]DIRECT", "(Lab)"]
+
+[[custom_groups]]
+name = "🏠 CJZ"
+type = "select"
+rule = ["[]DIRECT", "(CJZ)"]
 
 [[custom_groups]]
 name = "🏠 CYY"
