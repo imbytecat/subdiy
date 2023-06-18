@@ -24,7 +24,7 @@ ruleset = "[]DOMAIN-SUFFIX,szbdyd.com"
 
 # Home Intranet
 [[rulesets]]
-group = "🏠 Home"
+group = "🏠 CJZ"
 ruleset = "[]IP-CIDR,10.0.0.0/23"
 
 # College Intranet
