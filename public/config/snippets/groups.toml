@@ -194,7 +194,7 @@ rule = [
 ]
 
 [[custom_groups]]
-name = "🤖️ OpenAI"
+name = "🤖️ AI"
 type = "select"
 rule = [
     "[]Default Proxy",

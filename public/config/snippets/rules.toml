@@ -137,8 +137,22 @@ ruleset = "[]DOMAIN-SUFFIX,stripe.com"
 
 # OpenAI
 [[rulesets]]
-group = "🤖️ OpenAI"
+group = "🤖️ AI"
 ruleset = "[]DOMAIN-SUFFIX,openai.com"
+
+# Bing
+[[rulesets]]
+group = "NA Services"
+ruleset = "[]DOMAIN-SUFFIX,bing.com"
+
+# Claude
+[[rulesets]]
+group = "🤖️ AI"
+ruleset = "[]DOMAIN-SUFFIX,claude.ai"
+
+[[rulesets]]
+group = "🤖️ AI"
+ruleset = "[]DOMAIN-SUFFIX,anthropic.com"
 
 ### Cryptocurrency ###
 
@@ -251,12 +265,6 @@ ruleset = "[]DOMAIN-SUFFIX,skrill.com"
 [[rulesets]]
 group = "NA Services"
 ruleset = "[]DOMAIN-SUFFIX,ultramobile.com"
-
-# Bing
-# Recommended to use United States IP
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]DOMAIN-SUFFIX,bing.com"
 
 ### DIRECT ###
 
