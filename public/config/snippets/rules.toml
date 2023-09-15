@@ -142,8 +142,12 @@ ruleset = "[]DOMAIN-SUFFIX,openai.com"
 
 # Bing
 [[rulesets]]
-group = "NA Services"
+group = "🤖️ AI"
 ruleset = "[]DOMAIN-SUFFIX,bing.com"
+
+[[rulesets]]
+group = "🤖️ AI"
+ruleset = "[]DOMAIN-SUFFIX,bingapis.com"
 
 # Claude
 [[rulesets]]
