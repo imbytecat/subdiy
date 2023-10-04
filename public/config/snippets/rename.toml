@@ -3,11 +3,11 @@
 
 [[rename_node]]
 match = '^JMS-\d+\u0040c\d+s1.*?$'
-replace = "United States GT@JMS 01"
+replace = "United States GT1@"
 
 [[rename_node]]
 match = '^JMS-\d+\u0040c\d+s2.*?$'
-replace = "United States GT@JMS 02"
+replace = "United States GT2@JMS"
 
 [[rename_node]]
 match = '^JMS-\d+\u0040c\d+s3.*?$'
@@ -23,4 +23,4 @@ replace = "Netherlands GIA@JMS"
 
 [[rename_node]]
 match = '^JMS-\d+\u0040c\d+s801.*?$'
-replace = "United States Economy@JMS"
+replace = "United States eco@JMS"
