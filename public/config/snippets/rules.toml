@@ -50,9 +50,6 @@ group = "🏠 CYY"
 ruleset = "[]IP-CIDR,10.6.0.0/16"
 [[rulesets]]
 group = "🏠 CYY"
-ruleset = "[]IP-CIDR,10.200.0.0/16"
-[[rulesets]]
-group = "🏠 CYY"
 ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
 
 ### Special ###
