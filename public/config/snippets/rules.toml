@@ -52,6 +52,11 @@ ruleset = "[]IP-CIDR,10.6.0.0/16"
 group = "🏠 CYY"
 ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
 
+# ZZH Intranet
+[[rulesets]]
+group = "🏠 ZZH"
+ruleset = "[]IP-CIDR,10.200.0.0/16"
+
 ### Special ###
 
 # subconverter

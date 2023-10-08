@@ -233,6 +233,11 @@ type = "select"
 rule = ["[]DIRECT", "(CYY)"]
 
 [[custom_groups]]
+name = "🏠 ZZH"
+type = "select"
+rule = ["[]DIRECT", "(ZZH)"]
+
+[[custom_groups]]
 name = "Others"
 type = "select"
 rule = [

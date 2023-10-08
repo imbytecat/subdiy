@@ -12,6 +12,10 @@ emoji = "🏠"
 match = "CYY"
 emoji = "🏠"
 
+[[emoji]]
+match = "ZZH"
+emoji = "🏠"
+
 ### Countries & Regions ###
 
 [[emoji]]
