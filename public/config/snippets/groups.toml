@@ -230,7 +230,7 @@ rule = ["[]DIRECT", "(CJZ)"]
 [[custom_groups]]
 name = "🏠 CYY"
 type = "select"
-rule = ["[]DIRECT", "(CYY|ZZH)"]
+rule = ["[]DIRECT", "(CYY)"]
 
 [[custom_groups]]
 name = "Others"
