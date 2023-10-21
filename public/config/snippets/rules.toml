@@ -10,6 +10,11 @@ ruleset = "[]DOMAIN,dns.alidns.com"
 group = "DIRECT"
 ruleset = "[]DOMAIN-SUFFIX,doh.pub"
 
+# subconverter
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]DOMAIN,subconverter.imbytecat.com"
+
 ### Blocking ###
 
 # bilibili PCDN
@@ -53,11 +58,6 @@ group = "🏠 CYY"
 ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
 
 ### Special ###
-
-# subconverter
-[[rulesets]]
-group = "DIRECT"
-ruleset = "[]DOMAIN,subconverter.imbytecat.com"
 
 # WeChat
 [[rulesets]]
@@ -167,11 +167,6 @@ group = "📈 Crypto"
 ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Binance/binance.yaml"
 type = "clash-classic"
 
-# Dex-Trade
-[[rulesets]]
-group = "📈 Crypto"
-ruleset = "[]DOMAIN-SUFFIX,dex-trade.com"
-
 # Others
 [[rulesets]]
 group = "📈 Crypto"
@@ -252,53 +247,13 @@ type = "clash-classic"
 group = "EU Services"
 ruleset = "[]DOMAIN-SUFFIX,wise.com"
 
-# Skrill
-[[rulesets]]
-group = "EU Services"
-ruleset = "[]DOMAIN-SUFFIX,skrill.com"
-
 ### NA Services ###
 
-# Ultra Mobile (T-Mobile)
+# Ultra Mobile
 [[rulesets]]
 group = "NA Services"
-ruleset = "[]DOMAIN-SUFFIX,ultramobile.com"
-# [[rulesets]]
-# group = "NA Services"
-# ruleset = "[]DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org"
-# [[rulesets]]
-# group = "NA Services"
-# ruleset = "[]DOMAIN,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org"
-# [[rulesets]]
-# group = "NA Services"
-# ruleset = "[]DOMAIN,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org"
-# [[rulesets]]
-# group = "NA Services"
-# ruleset = "[]DOMAIN,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]DOMAIN-SUFFIX,mcc310.pub.3gppnetwork.org"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]DOMAIN,crl.t-mobile.com"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]DOMAIN,eas3.msg.t-mobile.com"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]DOMAIN,mascns.t-mobile.com"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]DOMAIN,ns.sipgeo.t-mobile.com"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]IP-CIDR,66.94.0.0/19"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]IP-CIDR,206.29.177.36/32"
-[[rulesets]]
-group = "NA Services"
-ruleset = "[]IP-CIDR,208.54.0.0/16"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/UltraMobile/ultra-mobile.yaml"
+type = "clash-classic"
 
 ### DIRECT ###
 
