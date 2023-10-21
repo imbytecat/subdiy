@@ -21,6 +21,7 @@ ruleset = "[]DOMAIN,subconverter.imbytecat.com"
 [[rulesets]]
 group = "REJECT"
 ruleset = "[]DOMAIN-SUFFIX,mcdn.bilivideo.cn"
+
 [[rulesets]]
 group = "REJECT"
 ruleset = "[]DOMAIN-SUFFIX,szbdyd.com"
@@ -36,12 +37,15 @@ ruleset = "[]IP-CIDR,10.0.0.0/23"
 [[rulesets]]
 group = "🏫 College"
 ruleset = "[]IP-CIDR,10.64.0.0/16"
+
 [[rulesets]]
 group = "🏫 College"
 ruleset = "[]IP-CIDR,10.81.0.0/16"
+
 [[rulesets]]
 group = "🏫 College"
 ruleset = "[]IP-CIDR,10.100.0.0/16"
+
 [[rulesets]]
 group = "🏫 College"
 ruleset = "[]DOMAIN-SUFFIX,cnki.net"
@@ -50,9 +54,11 @@ ruleset = "[]DOMAIN-SUFFIX,cnki.net"
 [[rulesets]]
 group = "🏠 CYY"
 ruleset = "[]IP-CIDR,10.5.0.0/16"
+
 [[rulesets]]
 group = "🏠 CYY"
 ruleset = "[]IP-CIDR,10.6.0.0/16"
+
 [[rulesets]]
 group = "🏠 CYY"
 ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
