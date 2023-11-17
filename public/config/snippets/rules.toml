@@ -139,7 +139,8 @@ ruleset = "[]DOMAIN-SUFFIX,stripe.com"
 # OpenAI
 [[rulesets]]
 group = "🤖️ AI"
-ruleset = "[]DOMAIN-SUFFIX,openai.com"
+ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/OpenAI/openai.yaml"
+type = "clash-classic"
 
 # Bing
 [[rulesets]]
