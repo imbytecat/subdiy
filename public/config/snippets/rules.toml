@@ -33,23 +33,6 @@ ruleset = "[]DOMAIN-SUFFIX,szbdyd.com"
 group = "🏠 CJZ"
 ruleset = "[]IP-CIDR,10.0.0.0/23"
 
-# # College Intranet
-# [[rulesets]]
-# group = "🏫 College"
-# ruleset = "[]IP-CIDR,10.64.0.0/16"
-
-# [[rulesets]]
-# group = "🏫 College"
-# ruleset = "[]IP-CIDR,10.81.0.0/16"
-
-# [[rulesets]]
-# group = "🏫 College"
-# ruleset = "[]IP-CIDR,10.100.0.0/16"
-
-# [[rulesets]]
-# group = "🏫 College"
-# ruleset = "[]DOMAIN-SUFFIX,cnki.net"
-
 # CYY Intranet
 [[rulesets]]
 group = "🏠 CYY"
