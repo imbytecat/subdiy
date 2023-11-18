@@ -1,8 +1,8 @@
 ### Custom Emojis ###
 
-[[emoji]]
-match = "Lab"
-emoji = "🏫"
+# [[emoji]]
+# match = "Lab"
+# emoji = "🏫"
 
 [[emoji]]
 match = "CJZ"

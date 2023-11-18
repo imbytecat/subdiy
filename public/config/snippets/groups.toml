@@ -217,10 +217,10 @@ rule = [
     ".*",
 ]
 
-[[custom_groups]]
-name = "🏫 College"
-type = "select"
-rule = ["[]DIRECT", "(Lab)"]
+# [[custom_groups]]
+# name = "🏫 College"
+# type = "select"
+# rule = ["[]DIRECT", "(Lab)"]
 
 [[custom_groups]]
 name = "🏠 CJZ"
