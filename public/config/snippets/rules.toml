@@ -250,6 +250,10 @@ type = "clash-classic"
 # PikPak
 [[rulesets]]
 group = "Default Proxy"
+ruleset = "[]DOMAIN,mypikpak.com"
+
+[[rulesets]]
+group = "Default Proxy"
 ruleset = "[]DOMAIN,access.mypikpak.com"
 
 [[rulesets]]
