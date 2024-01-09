@@ -42,3 +42,4 @@ dns:
     - +.msftconnecttest.com
     - msftconnecttest.com
     - localhost.ptlogin2.qq.com
+    - lamp-*-server
