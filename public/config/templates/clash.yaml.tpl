@@ -19,7 +19,7 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - https://doge.lililili.net/8471c1ee-1a45-4b1d-af61-66ab8a33a03b
+    - https://agh.lililili.net/1437bb45-7db3-4878-b836-091161dc37d7
 {% else if default(request.clash.dns, "") == "google-doh" %}
   default-server:
     - 8.8.8.8
