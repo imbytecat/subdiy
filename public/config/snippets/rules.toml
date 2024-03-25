@@ -157,6 +157,11 @@ group = "📈 Crypto"
 ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/Binance/binance.yaml"
 type = "clash-classic"
 
+# Nexo
+[[rulesets]]
+group = "📈 Crypto"
+ruleset = "[]DOMAIN-SUFFIX,nexo.com"
+
 # Others
 [[rulesets]]
 group = "📈 Crypto"
