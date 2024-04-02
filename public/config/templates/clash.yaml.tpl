@@ -45,3 +45,12 @@ dns:
     - +.msftconnecttest.com
     - msftconnecttest.com
     - localhost.ptlogin2.qq.com
+{% if default(request.clash.tun, "") == "true" %}
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - "any:53"
+  auto-route: true
+  auto-detect-interface: true
+{% endif %}
