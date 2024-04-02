@@ -1,11 +1,12 @@
-port: 7890
-socks-port: 7891
+mixed-port: 7890
 allow-lan: true
-mode: Rule
+mode: rule
 log-level: info
-external-controller: :9090
+ipv6: false
+external-controller: 0.0.0.0:9090
 dns:
   enable: true
+  listen: 0.0.0.0:53
   ipv6: false
 {% if default(request.clash.dns, "") == "china-doh" %}
   default-server:
@@ -37,6 +38,8 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
 {% endif %}
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - +.msftncsi.com
     - +.msftconnecttest.com
