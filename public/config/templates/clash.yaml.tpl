@@ -50,7 +50,7 @@ tun:
   enable: true
   stack: system
   dns-hijack:
-    - "any:53"
+    - any:53
   auto-route: true
   auto-detect-interface: true
 {% endif %}
