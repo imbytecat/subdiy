@@ -9,15 +9,15 @@ dns:
   ipv6: false
 {% if default(request.clash.dns, "") == "china-doh" %}
   default-server:
-    - 223.5.5.5
     - 119.29.29.29
+    - 223.5.5.5
   nameserver:
-    - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 {% else if default(request.clash.dns, "") == "self-doh" %}
   default-server:
-    - 223.5.5.5
     - 119.29.29.29
+    - 223.5.5.5
   nameserver:
     - https://agh.lililili.net/1437bb45-7db3-4878-b836-091161dc37d7
 {% else if default(request.clash.dns, "") == "google-doh" %}
@@ -34,8 +34,8 @@ dns:
     - https://cloudflare-dns.com/dns-query
 {% else %}
   nameserver:
-    - 223.5.5.5
     - 119.29.29.29
+    - 223.5.5.5
 {% endif %}
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
