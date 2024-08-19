@@ -149,6 +149,10 @@ ruleset = "[]DOMAIN-SUFFIX,claude.ai"
 group = "🤖️ AI"
 ruleset = "[]DOMAIN-SUFFIX,anthropic.com"
 
+[[rulesets]]
+group = "🤖️ AI"
+ruleset = "[]DOMAIN-SUFFIX,perplexity.ai"
+
 ### Cryptocurrency ###
 
 # Kraken
