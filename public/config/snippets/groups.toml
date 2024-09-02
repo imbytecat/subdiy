@@ -76,19 +76,6 @@ rule = [
     ".*",
 ]
 
-# 流媒体
-[[custom_groups]]
-name = "🎞️ Streaming"
-type = "select"
-rule = [
-    "[]Default Proxy",
-    "[]AS Relay",
-    "[]EU Relay",
-    "[]NA Relay",
-    "[]Default Relay",
-    ".*",
-]
-
 # 游戏
 [[custom_groups]]
 name = "🎮 Gaming"
