@@ -1,9 +1,8 @@
+import { authRoutes } from '@server/routes/auth'
 import { Hono } from 'hono'
 
 const app = new Hono()
 
-app.get('/', (c) => {
-  return c.text('Hello Hono!')
-})
+app.route('/', authRoutes)
 
 export default app
