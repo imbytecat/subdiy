@@ -5,8 +5,6 @@ import { logger } from 'hono/logger'
 
 const app = new Hono()
 
-app.use('/api/*', logger())
-  .use('/api/*', cors())
-  .route('/api', authRoutes)
+app.use('/api/*', logger()).use('/api/*', cors()).route('/api', authRoutes)
 
 export default app
