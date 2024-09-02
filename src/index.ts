@@ -5,7 +5,7 @@ import { logger } from 'hono/logger'
 
 const app = new Hono()
 
-app.use('*', logger())
+app.use('/api/*', logger())
   .use('/api/*', cors())
   .route('/api', authRoutes)
 

@@ -3,6 +3,7 @@ import { Hono } from "hono";
 import { db } from "@db/client";
 import { z } from "zod";
 import { user as userTable } from "@db/schema";
+import { errorResponse, successResponse } from "@server/utils/responseUtil";
 
 const UsernamePasswordSchema = z.object({
   username: z.string(),
@@ -15,10 +16,14 @@ export const authRoutes = new Hono()
     zValidator('json', UsernamePasswordSchema),
     async (c) => {
       const { username, password } = c.req.valid('json')
-      const result = await db.insert(userTable).values({
-        username,
-        password,
-        role: 'user',
-      }).returning()
-      return c.json(result)
+      try {
+        await db.insert(userTable).values({
+          username,
+          password,
+          role: 'user',
+        })
+      } catch (error) {
+        return c.json(errorResponse("错误"))
+      }
+      return c.json(successResponse("成功"))
     })
