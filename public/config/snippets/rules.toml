@@ -50,7 +50,7 @@ ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
 
 # WeChat
 [[rulesets]]
-group = "CN Services"
+group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.yaml"
 type = "clash-classic"
 
@@ -183,6 +183,12 @@ group = "📈 Crypto"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cryptocurrency/Cryptocurrency.yaml"
 type = "clash-classic"
 
+### Streaming Media ###
+[[rulesets]]
+group = "🎬 Streaming"
+ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia_Classical.yaml"
+type = "clash-classic"
+
 ### Gaming Services ###
 
 # Steam
@@ -284,13 +290,13 @@ type = "clash-classic"
 
 # China
 [[rulesets]]
-group = "CN Services"
+group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China_Classical.yaml"
 type = "clash-classic"
 
 # GeoIP: CN
 [[rulesets]]
-group = "CN Services"
+group = "DIRECT"
 ruleset = "[]GEOIP,CN"
 
 ### Others ###
