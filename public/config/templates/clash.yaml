@@ -40,9 +40,33 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - +.msftncsi.com
-    - +.msftconnecttest.com
-    - msftconnecttest.com
+    # STUN Services
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+ 
+    # Google Voices
+    - 'lens.l.google.com'
+ 
+    # Nintendo Switch
+    - '*.n.n.srv.nintendo.net'
+ 
+    # PlayStation
+    - '+.stun.playstation.net'
+ 
+    # Xbox
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+ 
+    # Microsoft
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+ 
+    # Bilibili CDN
+    - '*.mcdn.bilivideo.cn'
+
+    # QQ
     - localhost.ptlogin2.qq.com
 {% if default(request.clash.tun, "") == "true" %}
 tun:
