@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 import dotenv from 'dotenv'
 dotenv.config()
 
-const readFile = path.resolve(__dirname, './public/config/external.example.toml')
+const readFile = path.resolve(__dirname, './public/config/templates/external.toml')
 const wrideFile = path.resolve(__dirname, './public/config/external.toml')
 
 fs.readFile(readFile, (err, buffer) => {

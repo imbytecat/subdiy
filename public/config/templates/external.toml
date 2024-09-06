@@ -5,7 +5,7 @@ enable_rule_generator = true
 overwrite_original_rules = true
 
 # Options for custom base configuration file
-clash_rule_base = "SUBDIY_URL/config/templates/clash.yaml.tpl"
+clash_rule_base = "SUBDIY_URL/config/templates/clash.yaml"
 
 # Options for filtering nodes
 # e.g. "(s801)"
