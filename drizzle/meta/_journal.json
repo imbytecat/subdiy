@@ -8,6 +8,13 @@
       "when": 1725254465981,
       "tag": "0000_quick_the_hunter",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1725849602462,
+      "tag": "0001_vengeful_chameleon",
+      "breakpoints": true
     }
   ]
 }
