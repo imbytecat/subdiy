@@ -51,6 +51,11 @@ ruleset = "[]IP-CIDR,10.6.0.0/16"
 group = "🏠 CYY"
 ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
 
+# Beijing Intranet
+[[rulesets]]
+group = "🏠 Beijing"
+ruleset = "[]IP-CIDR,11.0.0.0/8"
+
 ### Special ###
 
 # WeChat

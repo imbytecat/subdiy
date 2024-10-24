@@ -207,6 +207,11 @@ type = "select"
 rule = ["[]DIRECT", "(CYY)"]
 
 [[custom_groups]]
+name = "🏠 Beijing"
+type = "select"
+rule = ["[]DIRECT", "(BJP)"]
+
+[[custom_groups]]
 name = "Others"
 type = "select"
 rule = [
