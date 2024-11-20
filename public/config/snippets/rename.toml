@@ -26,17 +26,17 @@ match = '^JMS.*?c51s801.*?$'
 replace = "United States ECO@JMS"
 
 [[rename_node]]
-match = '^JMS.*?*c983s1.*?$'
+match = '^JMS.*?c983s1.*?$'
 replace = "Hong Kong IPLC1@JMS"
 
 [[rename_node]]
-match = '^JMS.*?*c983s2.*?$'
+match = '^JMS.*?c983s2.*?$'
 replace = "Hong Kong IPLC2@JMS"
 
 [[rename_node]]
-match = '^JMS.*?*c983s52.*?$'
+match = '^JMS.*?c983s52.*?$'
 replace = "United States IPLC2@JMS"
 
 [[rename_node]]
-match = '^JMS.*?*c983s53.*?$'
+match = '^JMS.*?c983s53.*?$'
 replace = "United States IPLC2@JMS"
