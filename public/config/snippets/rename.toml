@@ -2,25 +2,41 @@
 # https://justmysocks.net/members/index.php?rp=/knowledgebase/4/Which-server-IP-should-I-use.html
 
 [[rename_node]]
-match = '^JMS-\d+\u0040c\d+s1.*?$'
+match = '(?=.*JMS)(?=.*c51s1)'
 replace = "United States GT1@"
 
 [[rename_node]]
-match = '^JMS-\d+\u0040c\d+s2.*?$'
+match = '(?=.*JMS)(?=.*c51s2)'
 replace = "United States GT2@JMS"
 
 [[rename_node]]
-match = '^JMS-\d+\u0040c\d+s3.*?$'
+match = '(?=.*JMS)(?=.*c51s3)'
 replace = "United States GIA@JMS"
 
 [[rename_node]]
-match = '^JMS-\d+\u0040c\d+s4.*?$'
+match = '(?=.*JMS)(?=.*c51s4)'
 replace = "Japan SB@JMS"
 
 [[rename_node]]
-match = '^JMS-\d+\u0040c\d+s5.*?$'
+match = '(?=.*JMS)(?=.*c51s5)'
 replace = "Netherlands GIA@JMS"
 
 [[rename_node]]
-match = '^JMS-\d+\u0040c\d+s801.*?$'
+match = '(?=.*JMS)(?=.*c51s801)'
 replace = "United States ECO@JMS"
+
+[[rename_node]]
+match = '(?=.*JMS)(?=.*c983s1)'
+replace = "Hong Kong IPLC1@JMS"
+
+[[rename_node]]
+match = '(?=.*JMS)(?=.*c983s2)'
+replace = "Hong Kong IPLC2@JMS"
+
+[[rename_node]]
+match = '(?=.*JMS)(?=.*c983s52)'
+replace = "United States IPLC2@JMS"
+
+[[rename_node]]
+match = '(?=.*JMS)(?=.*c983s53)'
+replace = "United States IPLC2@JMS"
