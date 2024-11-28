@@ -35,7 +35,7 @@ replace = "Hong Kong IPLC2@JMS"
 
 [[rename_node]]
 match = '^JMS.*?c983s52.*?$'
-replace = "United States IPLC2@JMS"
+replace = "United States IPLC1@JMS"
 
 [[rename_node]]
 match = '^JMS.*?c983s53.*?$'
