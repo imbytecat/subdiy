@@ -202,9 +202,14 @@ type = "select"
 rule = ["[]DIRECT", "(DXP)"]
 
 [[custom_groups]]
-name = "🏠 CYY"
+name = "🏠 Putuo"
 type = "select"
-rule = ["[]DIRECT", "(CYY)"]
+rule = ["[]DIRECT", "(Putuo)"]
+
+# [[custom_groups]]
+# name = "🏠 CYY"
+# type = "select"
+# rule = ["[]DIRECT", "(CYY)"]
 
 [[custom_groups]]
 name = "🏠 Dod3"
