@@ -38,18 +38,23 @@ ruleset = "[]IP-CIDR,10.0.0.0/23"
 group = "🏠 DXP"
 ruleset = "[]IP-CIDR,10.225.0.0/16"
 
-# CYY Intranet
-[[rulesets]]
-group = "🏠 CYY"
-ruleset = "[]IP-CIDR,10.5.0.0/16"
+# # CYY Intranet
+# [[rulesets]]
+# group = "🏠 CYY"
+# ruleset = "[]IP-CIDR,10.5.0.0/16"
 
-[[rulesets]]
-group = "🏠 CYY"
-ruleset = "[]IP-CIDR,10.6.0.0/16"
+# [[rulesets]]
+# group = "🏠 CYY"
+# ruleset = "[]IP-CIDR,10.6.0.0/16"
 
+# [[rulesets]]
+# group = "🏠 CYY"
+# ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
+
+# Putuo Intranet
 [[rulesets]]
-group = "🏠 CYY"
-ruleset = "[]DOMAIN-SUFFIX,cyy.ipddns.cn"
+group = "🏠 Putuo"
+ruleset = "[]IP-CIDR,10.24.0.0/16"
 
 # Dod3 Intranet
 [[rulesets]]
