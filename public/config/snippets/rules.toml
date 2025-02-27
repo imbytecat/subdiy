@@ -33,11 +33,6 @@ ruleset = "[]DOMAIN-SUFFIX,szbdyd.com"
 group = "🏠 CJZ"
 ruleset = "[]IP-CIDR,10.0.0.0/23"
 
-# Home Intranet
-[[rulesets]]
-group = "🏠 DXP"
-ruleset = "[]IP-CIDR,10.225.0.0/16"
-
 # # CYY Intranet
 # [[rulesets]]
 # group = "🏠 CYY"
@@ -57,9 +52,9 @@ group = "🏠 Putuo"
 ruleset = "[]IP-CIDR,10.24.0.0/16"
 
 # Dod3 Intranet
-[[rulesets]]
-group = "🏠 Dod3"
-ruleset = "[]IP-CIDR,11.0.0.0/8"
+# [[rulesets]]
+# group = "🏠 Dod3"
+# ruleset = "[]IP-CIDR,11.0.0.0/8"
 
 ### Special ###
 
