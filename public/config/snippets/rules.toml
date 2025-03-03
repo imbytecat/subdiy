@@ -40,7 +40,7 @@ ruleset = "[]IP-CIDR,10.24.0.0/16"
 
 # Putuo Intranet
 [[rulesets]]
-group = "🏠 Putuo"
+group = "🏢 ITTC"
 ruleset = "[]IP-CIDR,172.16.6.0/24"
 
 # # CYY Intranet
