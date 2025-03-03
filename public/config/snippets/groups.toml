@@ -201,6 +201,11 @@ name = "🏠 Putuo"
 type = "select"
 rule = ["[]DIRECT", "(Putuo)"]
 
+[[custom_groups]]
+name = "🏢 ITTC"
+type = "select"
+rule = ["[]DIRECT", "(ITTC)"]
+
 # [[custom_groups]]
 # name = "🏠 CYY"
 # type = "select"
