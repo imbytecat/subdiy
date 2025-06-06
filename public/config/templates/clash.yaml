@@ -68,6 +68,9 @@ dns:
 
     # QQ
     - localhost.ptlogin2.qq.com
+
+    # Xiaomi Weather
+    - weatherapi.market.xiaomi.com
 {% if default(request.clash.tun, "") == "true" %}
 tun:
   enable: true
