@@ -3,6 +3,17 @@ allow-lan: true
 mode: rule
 log-level: info
 external-controller: 0.0.0.0:9090
+
+{% if default(request.clash.tun, "") == "true" %}
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
+{% endif %}
+
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -71,12 +82,3 @@ dns:
 
     # Xiaomi Weather
     - weatherapi.market.xiaomi.com
-{% if default(request.clash.tun, "") == "true" %}
-tun:
-  enable: true
-  stack: system
-  dns-hijack:
-    - any:53
-  auto-route: true
-  auto-detect-interface: true
-{% endif %}
