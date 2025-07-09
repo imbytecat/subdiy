@@ -129,6 +129,9 @@ ruleset = "[]DOMAIN,access.pikpak.me"
 [[rulesets]]
 group = "Default Proxy"
 ruleset = "[]DOMAIN,access.pikpakdrive.com"
+[[rulesets]]
+group = "DIRECT"
+ruleset = "[]DOMAIN-SUFFIX,mypikpak.com"
 
 ### Speedtest Services ###
 
