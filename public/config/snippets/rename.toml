@@ -3,7 +3,7 @@
 
 [[rename_node]]
 match = '^JMS.*?c16s1.*?$'
-replace = "United States GT1@"
+replace = "United States GT1@JMS"
 
 [[rename_node]]
 match = '^JMS.*?c16s2.*?$'
