@@ -161,15 +161,6 @@ group = "🤖️ AI"
 ruleset = "https://raw.githubusercontent.com/imbytecat/clash-rules/main/Rules/OpenAI/openai.yaml"
 type = "clash-classic"
 
-# Bing
-[[rulesets]]
-group = "🤖️ AI"
-ruleset = "[]DOMAIN-SUFFIX,bing.com"
-
-[[rulesets]]
-group = "🤖️ AI"
-ruleset = "[]DOMAIN-SUFFIX,bingapis.com"
-
 # Claude
 [[rulesets]]
 group = "🤖️ AI"
